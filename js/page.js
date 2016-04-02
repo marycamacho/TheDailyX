@@ -4,10 +4,10 @@
 
 $(function(){
     var data = getData();
+    var allSquares$ = $(".square");
 
-    $(".square").each(function(){
+    allSquares$.each(function(){
         var this$=$(this);
-        //console.log(this$.data());
         var cellID=this$.data().cell;
         if (data[cellID]){
             if (data[cellID]==1){
@@ -18,7 +18,7 @@ $(function(){
         }
     });
 
-    $(".square").click(function () {
+    allSquares$.click(function () {
         var this$=$(this);
         if (this$.hasClass('single')){
             this$.addClass('double').removeClass('single');
