@@ -6,6 +6,7 @@ body {
     height: 100px;
     width: 100px;
     border: thin solid #2f4f4f;
+    cursor: pointer;
 }
 
 header {
@@ -45,3 +46,10 @@ footer {
     margin-top: 20px;
 }
 
+.double {
+    background: url('../img/double.png') no-repeat center;
+}
+
+.single {
+    background: url('../img/single.png') no-repeat center;
+}
