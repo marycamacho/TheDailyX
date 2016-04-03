@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5784ff79-170a-493c-a5c0-95db5b3e6833" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/data.js" afterPath="$PROJECT_DIR$/js/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/page.js" afterPath="$PROJECT_DIR$/js/page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheDailyX.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +36,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/data.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="175">
@@ -44,6 +44,16 @@
                   <folding>
                     <element signature="n#!!doc;n#getData#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/LICENSE">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="50">
+                  <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -119,6 +129,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/page.js" />
         <option value="$PROJECT_DIR$/js/data.js" />
+        <option value="$PROJECT_DIR$/LICENSE" />
       </list>
     </option>
   </component>
@@ -292,12 +303,12 @@
       <updated>1459474445428</updated>
       <workItem from="1459474446581" duration="13141000" />
       <workItem from="1459560482723" duration="10000" />
-      <workItem from="1459560498162" duration="9910000" />
+      <workItem from="1459560498162" duration="10455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23061000" />
+    <option name="totallyTimeSpent" value="23606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2174" height="1406" extended-state="0" />
@@ -451,6 +462,14 @@
           <folding>
             <element signature="n#!!doc;n#getData#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
