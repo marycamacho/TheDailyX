@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5784ff79-170a-493c-a5c0-95db5b3e6833" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/src/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/src/css/bootstrap-theme.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/src/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/colorbg.png" afterPath="$PROJECT_DIR$/src/img/colorbg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/double.png" afterPath="$PROJECT_DIR$/src/img/double.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/single.png" afterPath="$PROJECT_DIR$/src/img/single.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/data.js" afterPath="$PROJECT_DIR$/src/js/data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-2.2.2.min.js" afterPath="$PROJECT_DIR$/src/js/jquery-2.2.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="$PROJECT_DIR$/src/js/npm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/page.js" afterPath="$PROJECT_DIR$/src/js/page.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/alert.js" afterPath="$PROJECT_DIR$/src/js/umd/alert.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/button.js" afterPath="$PROJECT_DIR$/src/js/umd/button.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/carousel.js" afterPath="$PROJECT_DIR$/src/js/umd/carousel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/collapse.js" afterPath="$PROJECT_DIR$/src/js/umd/collapse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/dropdown.js" afterPath="$PROJECT_DIR$/src/js/umd/dropdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/modal.js" afterPath="$PROJECT_DIR$/src/js/umd/modal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/popover.js" afterPath="$PROJECT_DIR$/src/js/umd/popover.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/scrollspy.js" afterPath="$PROJECT_DIR$/src/js/umd/scrollspy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/tab.js" afterPath="$PROJECT_DIR$/src/js/umd/tab.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/tooltip.js" afterPath="$PROJECT_DIR$/src/js/umd/tooltip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/umd/util.js" afterPath="$PROJECT_DIR$/src/js/umd/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheDailyX.iws" />
@@ -27,7 +62,7 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+            <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="125">
                   <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
@@ -37,7 +72,7 @@
             </entry>
           </file>
           <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/data.js">
+            <entry file="file://$PROJECT_DIR$/src/js/data.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="175">
                   <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
@@ -59,7 +94,7 @@
             </entry>
           </file>
           <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+            <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1125">
                   <caret line="5822" column="19" selection-start-line="5822" selection-start-column="19" selection-end-line="5822" selection-end-column="19" />
@@ -69,7 +104,7 @@
             </entry>
           </file>
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
+            <entry file="file://$PROJECT_DIR$/src/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="325">
                   <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -79,7 +114,7 @@
             </entry>
           </file>
           <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/page.js">
+            <entry file="file://$PROJECT_DIR$/src/js/page.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="750">
                   <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
@@ -95,7 +130,7 @@
       <split-second>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+            <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="500">
                   <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
@@ -198,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,11 +254,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WorkingFiles\TheDailyX\src" />
       <recent name="C:\WorkingFiles\TheDailyX" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TheDailyX/index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TheDailyX/src/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -303,18 +339,18 @@
       <updated>1459474445428</updated>
       <workItem from="1459474446581" duration="13141000" />
       <workItem from="1459560482723" duration="10000" />
-      <workItem from="1459560498162" duration="10455000" />
+      <workItem from="1459560498162" duration="10662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23606000" />
+    <option name="totallyTimeSpent" value="23813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2174" height="1406" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20120817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20120817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -353,7 +389,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -361,7 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145550">
           <caret line="5822" column="19" selection-start-line="5822" selection-start-column="19" selection-end-line="5822" selection-end-column="19" />
@@ -369,7 +405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
@@ -377,7 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/page.js">
+    <entry file="file://$PROJECT_DIR$/src/js/page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
@@ -387,7 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -395,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145550">
           <caret line="5822" column="19" selection-start-line="5822" selection-start-column="19" selection-end-line="5822" selection-end-column="19" />
@@ -403,7 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
@@ -411,7 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/page.js">
+    <entry file="file://$PROJECT_DIR$/src/js/page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
@@ -421,7 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="5822" column="19" selection-start-line="5822" selection-start-column="19" selection-end-line="5822" selection-end-column="19" />
@@ -429,7 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -437,7 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
@@ -445,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/page.js">
+    <entry file="file://$PROJECT_DIR$/src/js/page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
@@ -455,7 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/data.js">
+    <entry file="file://$PROJECT_DIR$/src/js/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
