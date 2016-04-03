@@ -20,13 +20,20 @@ $(function(){
 
     allSquares$.click(function () {
         var this$=$(this);
+        var cellID=this$.data().cell;
+
         if (this$.hasClass('single')){
             this$.addClass('double').removeClass('single');
+            data[cellID]=2;
         } else if (this$.hasClass('double')){
             this$.removeClass('double');
+            data[cellID]=0;
         } else {
             this$.addClass('single');
+            data[cellID]=1;
         }
+        
+        saveData(data);
     });
 
 
