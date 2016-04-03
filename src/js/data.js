@@ -13,14 +13,6 @@ function getData(){
             dateStored: new Date()
         };
     }
-
-    /*// return {
-        dateStored: new Date(),
-        w1: 2,
-        w2: 1,
-        c1: 1,
-        v1: 2
-    };*/
 }
 
 function saveData(data){
@@ -32,6 +24,14 @@ function saveData(data){
     } else {
         alert('Local Storage not Supported');
     }
+}
+
+function resetData () {
+    var data={
+        dateStored: new Date()
+    };
+    saveData(data);
+    return data;
 }
 
 

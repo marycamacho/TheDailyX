@@ -6,16 +6,26 @@ $(function(){
     var data = getData();
     var allSquares$ = $(".square");
 
-    allSquares$.each(function(){
-        var this$=$(this);
-        var cellID=this$.data().cell;
-        if (data[cellID]){
-            if (data[cellID]==1){
-                this$.addClass('single');
-            } else {
-                this$.addClass('double');
+    function paintSquares(){
+        allSquares$.each(function () {
+            var this$ = $(this);
+            var cellID = this$.data().cell;
+            if (data[cellID]) {
+                if (data[cellID] == 1) {
+                    this$.addClass('single');
+                } else {
+                    this$.addClass('double');
+                }
             }
-        }
+        });
+    }
+
+    paintSquares();
+
+    $('#resetBtn').click(function(){
+        allSquares$.removeClass('single').removeClass('double');
+        data=resetData();
+        paintSquares();
     });
 
     allSquares$.click(function () {
@@ -34,8 +44,6 @@ $(function(){
         }
         
         saveData(data);
-    });
-
-
+        });
 });
 
