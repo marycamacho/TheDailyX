@@ -24,6 +24,7 @@ function getData(){
 }
 
 function saveData(data){
+    data.dateStored = new Date();
     if (window.localStorage){
         var dataString = JSON.stringify(data);
         console.log(dataString);
