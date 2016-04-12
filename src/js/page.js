@@ -3,6 +3,21 @@
  */
 
 $(function(){
+
+    $(".goal-display").each(function() {
+
+        var this$ = $(this);
+        var numberSquares = this$.data().showSquares;
+
+        this$.append('<h3>' + this$.data().title + '</h3>');
+        
+        for (var i = 0; i < numberSquares; i++) {
+            this$.append('<div  class="pull-left square"></div>');
+        }
+
+
+    });
+
     var data = getData();
     var allSquares$ = $(".square");
 
