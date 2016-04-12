@@ -12,14 +12,15 @@ $(function(){
         var goalType = this$.data().goalType;
 
         this$.append('<h3>' + this$.data().title + '</h3>');
-        
-        if(goalType == "over") {
+
+        // commented code here is to add display based on over/under
+        //if(goalType == "over") {
             for (var i = 0; i < numberSquares; i++) {
                 this$.append('<div data-cell="' + controlName + (i + 1) + '" class="pull-left square"></div>');
             }
-        } else {
+        /*} else {
             this$.append('<div data-cell="' + controlName + (i + 1) + '" class="pull-left square"></div>');
-        }
+        }*/
 
     });
 
@@ -51,6 +52,8 @@ $(function(){
     allSquares$.click(function () {
         var this$ = $(this);
         var cellID = this$.data().cell;
+        var goalType = this$.data().goalType;
+        var controlName = this$.data().name;
 
         if (this$.hasClass('single')){
             this$.addClass('double').removeClass('single');
@@ -58,12 +61,11 @@ $(function(){
         } else if (this$.hasClass('double')){
             this$.removeClass('double');
             data[cellID] = 0;
+
         } else {
             this$.addClass('single');
             data[cellID] = 1;
         }
-
-
 
         saveData(data);
         });
