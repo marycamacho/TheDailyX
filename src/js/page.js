@@ -9,13 +9,17 @@ $(function(){
         var this$ = $(this);
         var numberSquares = this$.data().showSquares;
         var controlName = this$.data().name;
+        var goalType = this$.data().goalType;
 
         this$.append('<h3>' + this$.data().title + '</h3>');
         
-        for (var i = 0; i < numberSquares; i++) {
-            this$.append('<div data-cell="' + controlName + (i+1) + '" class="pull-left square"></div>');
+        if(goalType == "over") {
+            for (var i = 0; i < numberSquares; i++) {
+                this$.append('<div data-cell="' + controlName + (i + 1) + '" class="pull-left square"></div>');
+            }
+        } else {
+            this$.append('<div data-cell="' + controlName + (i + 1) + '" class="pull-left square"></div>');
         }
-
 
     });
 
@@ -58,7 +62,9 @@ $(function(){
             this$.addClass('single');
             data[cellID] = 1;
         }
-        
+
+
+
         saveData(data);
         });
 });
